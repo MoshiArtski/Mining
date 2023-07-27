@@ -1,0 +1,146 @@
+[
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\InstanceManager.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\InstanceManager.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MiningActor.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MiningActor.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MiningActorComponent.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MiningActorComponent.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MiningManager.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MiningManager.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MyProject.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MyProject.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MyProjectGameModeBase.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\MyProjectGameModeBase.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\TP_ThirdPerson\\TP_ThirdPerson.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\TP_ThirdPerson\\TP_ThirdPersonCharacter.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\TP_ThirdPerson\\TP_ThirdPersonCharacter.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\TP_ThirdPerson\\TP_ThirdPersonGameMode.cpp",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\Source\\MyProject\\TP_ThirdPerson\\TP_ThirdPersonGameMode.h",
+		"arguments": [
+			"D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default\\MyProject.262.rsp"
+		],
+		"directory": "D:\\unreal\\UE_5.1\\Engine\\Source"
+	}
+]

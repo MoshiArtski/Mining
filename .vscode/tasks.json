@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MyProject Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Debug",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Debug",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProject Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Debug",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"DebugGame",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"DebugGame",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProject Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"DebugGame",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Development",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Development",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProject Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Development",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Test",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Test",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProject Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Test",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Shipping",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Shipping",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProject Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProject Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProject",
+				"Win64",
+				"Shipping",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"Debug",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"Debug",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProjectEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"Debug",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProjectEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"Development",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"Development",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MyProjectEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		},
+		{
+			"label": "MyProjectEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MyProjectEditor",
+				"Win64",
+				"Development",
+				"E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\MyProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\unreal\\UE_5.1"
+			}
+		}
+	]
+}

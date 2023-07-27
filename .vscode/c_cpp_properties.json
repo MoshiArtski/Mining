@@ -1,0 +1,20 @@
+{
+	"configurations": [
+		{
+			"name": "MyProjectEditor Editor Win64 Development (MyProject)",
+			"compilerPath": "D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"cStandard": "c17",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_MyProject.json"
+		},
+		{
+			"name": "Win32",
+			"compilerPath": "D:\\New folder (3)\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe",
+			"cStandard": "c17",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "E:\\UE\\New folder\\New folder\\MyProject\\MyProject\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}
